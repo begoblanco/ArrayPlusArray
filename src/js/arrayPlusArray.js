@@ -1,4 +1,4 @@
-function arrSum(arr1, arr2) {
+export function arrSum(arr1, arr2) {
   if (arr1.length !== arr2.length) {
     return "The arrays must be the same length";
   }
